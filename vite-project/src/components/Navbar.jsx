@@ -5,19 +5,19 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <ul className="nav-group left">
-        <li>Home</li>
-        <li>Characters</li>
-        <li>Movies</li>
+        <li>Accueil</li>
+        <li>Personnages</li>
+        <li>Films</li>
       </ul>
 
       <div className="logo">
-        <img src='./images/logo.png' alt="Avengers Logo" />
+        <img src='./images/logo.png' alt="Logo Avengers" />
       </div>
 
       <ul className="nav-group right">
-        <li>Series</li>
+        <li>Séries</li>
         <li>Comics</li>
-        <li>Shop</li>
+        <li>Boutique</li>
       </ul>
     </nav>
   )
